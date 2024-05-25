@@ -1,18 +1,21 @@
 # Modelagem de dados
+O projeto em questão foi uma análise de dados abrangente e estratégica, voltada para a preparação e modelagem de dados RFM (Recency, Frequency, Monetary). Durante o desenvolvimento, diversas etapas foram meticulosamente executadas para garantir a qualidade e relevância das informações extraídas.
 
-No desenvolvimento deste projeto, foram realizadas diversas etapas de limpeza e organização dos dados para preparar o dataset para modelagem de dados RFM (Recency, Frequency, Monetary). Inicialmente, foi feita uma análise exploratória dos dados para entender sua estrutura, identificar possíveis problemas e definir quais ações seriam necessárias para preparar o conjunto de dados.
+Inicialmente, uma análise exploratória detalhada foi conduzida para compreender a estrutura dos dados, identificar possíveis inconsistências e determinar as ações necessárias para preparar o conjunto de dados. Essa etapa crucial permitiu uma visão panorâmica dos dados, estabelecendo as bases para o restante do projeto.
 
-As principais etapas realizadas no processo de limpeza e organização dos dados incluem:
+Um dos primeiros passos foi a remoção de dados duplicados, uma medida fundamental para garantir a integridade e consistência do dataset. Isso assegurou que cada registro fosse único e representativo, evitando distorções nos resultados finais.
 
-1. **Remoção de Dados Duplicados**: Identificação e remoção de registros duplicados, garantindo a consistência e integridade do dataset.
+Em seguida, o tratamento de dados ausentes foi realizado de forma abrangente, avaliando e preenchendo valores faltantes nas colunas relevantes. Essa prática foi conduzida com rigor, utilizando técnicas como preenchimento por média, mediana ou moda, conforme apropriado para cada tipo de dado, visando preservar a integridade dos registros.
 
-2. **Tratamento de Dados Ausentes**: Avaliação e tratamento de valores ausentes em todas as colunas relevantes, utilizando técnicas como preenchimento por média, mediana ou moda, dependendo da natureza dos dados.
+A padronização de dados também desempenhou um papel crucial, garantindo que os formatos fossem uniformes em todo o conjunto de dados. Isso incluiu a normalização de datas e códigos de estoque, simplificando análises futuras e facilitando a compreensão dos resultados.
 
-3. **Padronização de Dados**: Padronização de formatos de dados, como datas e códigos de estoque, para garantir consistência e facilitar análises futuras.
+Uma parte significativa do projeto foi dedicada ao cálculo das métricas RFM para cada cliente. Isso envolveu a determinação da Recency (tempo desde a última compra), Frequency (quantidade de compras) e Monetary (valor médio gasto por compra), fornecendo insights valiosos sobre o comportamento e o valor de cada cliente para o negócio.
 
-4. **Cálculo de Métricas RFM**: Para cada cliente, foram calculadas as métricas de Recency (tempo desde a última compra), Frequency (quantidade de compras) e Monetary (valor médio gasto por compra). Isso envolveu a manipulação das datas de faturamento e o cálculo do valor total gasto por cliente.
+Além disso, foram realizadas análises específicas para identificar os 10 países com maior valor de vendas e os 10 produtos mais vendidos. Essas informações foram essenciais para compreender a dinâmica do mercado e identificar oportunidades de otimização.
 
-6. **Exportação do Dataset Final**: O resultado final foi exportado para um arquivo CSV contendo apenas as informações necessárias para a modelagem.
+Outro aspecto importante foi o cálculo do valor total de vendas por mês, bem como o valor total por mês e por país. Essas análises sazonais forneceram uma compreensão mais profunda dos padrões de compra e das tendências de mercado, auxiliando na elaboração de estratégias futuras.
 
-Em suma, a limpeza e organização de dados são etapas cruciais para qualquer projeto de ciência de dados, especialmente quando se trata de construir modelos preditivos ou analíticos. Com um dataset bem preparado e técnicas adequadas de análise, é possível extrair insights valiosos e tomar decisões estratégicas fundamentadas.
+A partir dos resultados obtidos, foram elaborados gráficos representativos de cada análise realizada. Esses gráficos foram essenciais para visualizar e comunicar de forma clara e concisa os insights extraídos dos dados.
+
+Em resumo, o projeto demonstrou a importância da análise de dados abrangente e estratégica na tomada de decisões empresariais. Por meio de uma série de etapas cuidadosamente planejadas e executadas, foi possível extrair insights valiosos que podem impulsionar o sucesso e a eficácia das operações comerciais.
 
